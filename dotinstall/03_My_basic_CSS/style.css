@@ -6,9 +6,8 @@ body {
 p {
   background-color: pink;
   margin: 16px 0 0;
-  width: 400px;
+  width: 160px;
   height: 80px;
-  border: 8px solid blue;
-  padding: 8px;
-  box-sizing: border-box;
+  /* overflow: hidden; */
+  overflow: scroll;
 }
