@@ -8,12 +8,24 @@ header {
   background: pink;
 }
 
+.container {
+  display: flex;
+}
+
 main {
   background: skyblue;
+  flex: 1;
+}
+
+nav {
+  width: 160px;
+  background: red;
+  order: -1;
 }
 
 aside {
   background: orange;
+  width: 160px;
 }
 
 footer {
