@@ -3,12 +3,18 @@
 body {
   margin: 0;
 }
+
+h1 {
+  background-color: skyblue;
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
 p {
   background-color: pink;
-  margin: 16px;
-  width: 160px;
-  height: 160px;
-  /* box-shadow: 8px 8px gray; */
-  /* box-shadow: 8px 8px 8px gray; */
-  box-shadow: 0 0 8px gray;
+  margin: 0;
+  font-weight: bold;
+  text-align: right;
 }
