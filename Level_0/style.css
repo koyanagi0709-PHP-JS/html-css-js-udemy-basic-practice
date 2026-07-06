@@ -6,7 +6,10 @@ html {
 
 body {
   color: #333333;
-  font-family: -apple-system , BlinkMacSystemFont , 'Helvetica Neue' , '游ゴシック' , 'Yu Gothic' , '游ゴシック体' , YuGothic , Verdana , 'メイリオ' , Meiryo , sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック",
+    "Yu Gothic", "游ゴシック体", YuGothic, Verdana, "メイリオ", Meiryo,
+    sans-serif;
   font-size: 1.4em;
   font-weight: 500;
 }
@@ -49,7 +52,7 @@ header img {
   list-style: none;
   margin: 0 0 10px;
   padding: 5px 0;
-  width: calc(100%/3);
+  width: calc(100% / 3);
 }
 
 .nav li:hover {
@@ -82,7 +85,7 @@ article p img {
 /*  section  */
 
 section h3 {
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 
 section ul li,
@@ -114,14 +117,13 @@ footer {
 }
 
 @media (min-width: 600px) {
-
-/*  nav  */
+  /*  nav  */
 
   .nav li a {
     font-size: 1.6rem;
   }
 
-/*  article  */
+  /*  article  */
 
   article p img {
     max-width: 400px;
@@ -130,12 +132,10 @@ footer {
   article h2 {
     font-size: 2.2rem;
   }
-
 }
 
 @media (min-width: 768px) {
-
-/*  header  */
+  /*  header  */
 
   header h1 {
     font-size: 3.6rem;
@@ -151,7 +151,7 @@ footer {
     vertical-align: bottom;
   }
 
-/*  nav  */
+  /*  nav  */
 
   .nav {
     max-width: 760px;
@@ -166,21 +166,21 @@ footer {
     font-size: 1.8rem;
   }
 
-/*  contents  */
+  /*  contents  */
 
   #contents {
     display: flex;
     margin: 0 auto;
   }
 
-/*  article  */
+  /*  article  */
 
   article {
     padding: 40px 5% 20px;
     width: 62%;
   }
 
-/*  aside  */
+  /*  aside  */
 
   aside {
     height: auto;
@@ -190,35 +190,32 @@ footer {
   aside section {
     padding: 50px 5% 20px;
   }
-
 }
 
 @media (min-width: 960px) {
-
-/*  header  */
+  /*  header  */
 
   header {
     margin: 0 auto;
     max-width: 1280px;
   }
 
-/*  contents  */
+  /*  contents  */
 
   #contents {
     max-width: 1280px;
   }
 
-/*  article  */
+  /*  article  */
 
   article {
     padding: 40px 5% 20px;
-    width: calc(100%/3*2);
+    width: calc(100% / 3 * 2);
   }
 
-/*  aside  */
+  /*  aside  */
 
   aside {
-    width: calc(100%/3);
+    width: calc(100% / 3);
   }
-
 }
