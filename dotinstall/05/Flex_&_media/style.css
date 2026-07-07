@@ -1,0 +1,85 @@
+@charset "utf-8";
+@import url("reset.css");
+
+/* header */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > div {
+  background: #eef2f5;
+  padding: 36px 0;
+}
+
+header > div > div {
+  max-width: 120px;
+  padding: 8px;
+}
+
+header > div > div > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+header > div > h1 {
+  font-size: 1.2em;
+  padding: 4px;
+}
+
+header > div > p {
+  font-size: 0.9em;
+}
+
+/* main */
+main > section > h2 {
+  margin: 36px 0;
+}
+
+main > section > article {
+  margin: 0 0 24px;
+  max-width: 400px;
+}
+
+/* article */
+article > div > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+article > div > img,
+article > div > h3,
+article > div > p {
+  margin: 0 0 16px;
+}
+
+/* footer */
+footer > div {
+  margin: 36px 0;
+  border-top: 1px solid lightgray;
+}
+
+footer > div > p {
+  padding: 16px 0;
+}
+
+small {
+  color: lightgrey;
+  font-size: 0.9em;
+}
+
+/* sp */
+@media screen and (max-width: 767px) {
+  header > div > div {
+    max-width: 75px;
+    padding: 8px;
+  }
+  main > section > article {
+    margin: 0 0 24px;
+    max-width: 270px;
+  }
+}
